@@ -25,6 +25,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .container {
+    width: 94%;
+  }
+
   .spread2 {
     display: none;
   }
@@ -58,6 +62,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .container {
+    width: 92%;
+  }
+
   .registry-text {
     margin-top: -5em;
   }
@@ -77,6 +85,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+
   .navbar {
     display: none;
   }
