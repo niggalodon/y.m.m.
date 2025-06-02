@@ -22,6 +22,10 @@
   .registry-text {
     margin-top: -10em;
   }
+
+  .banner-text {
+    margin-top: -4em;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -69,9 +73,14 @@
   .registry-text {
     margin-top: -5em;
   }
+
+  .banner-text {
+    margin-top: -3em;
+  }
 }
 
 @media screen and (max-width: 700px) {
+
   .spread,
   .spread2 {
     display: none;
@@ -81,6 +90,14 @@
     width: 49%;
     height: 100%;
     border-radius: 20px;
+  }
+
+  .registry-text {
+    margin-top: -3em;
+  }
+
+  .banner-text {
+    margin-top: -2em;
   }
 }
 
@@ -134,5 +151,13 @@
     overflow-x: hidden;
     z-index: 49;
     background: rgba(245, 246, 243, 1);
+  }
+
+  .registry-text {
+    margin-top: -2em;
+  }
+
+  .banner-text {
+    margin-top: -1em;
   }
 }
