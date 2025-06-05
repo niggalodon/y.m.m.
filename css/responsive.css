@@ -102,6 +102,19 @@
 }
 
 @media screen and (max-width: 450px) {
+  .full-padding {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .top-padding {
+    padding-top: 2em;
+  }
+
+  .bottom-padding {
+    padding-bottom: 2em;
+  }
+
   .container {
     width: 90%;
   }
