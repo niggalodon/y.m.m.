@@ -25,14 +25,6 @@ h6 {
   font-style: normal;
 }
 
-.fancy {
-  padding: 30px 10px;
-  font-family: 'Sisterhood', sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  text-shadow: none !important;
-}
-
 h1 {
   font-size: 48px;
 }
@@ -490,7 +482,6 @@ form button {
   height: 100%;
   border-radius: 20px;
   color: #fff;
-  text-shadow: 1px 1px rgba(0, 0, 0, .60);
   background: rgba(0, 0, 0, .4);
 }
 
@@ -512,4 +503,8 @@ form button {
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.contact-block {
+  width: 25%;
 }
