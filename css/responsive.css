@@ -63,6 +63,10 @@
   .registry-text {
     width: 80%;
   }
+
+  .contact-block {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -172,9 +176,5 @@
 
   .banner-text {
     margin-top: -2em;
-  }
-
-  .contact-block {
-    width: 100%;
   }
 }
