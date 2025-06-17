@@ -105,6 +105,12 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .gallery-image {
+    height: 70vh;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .full-padding {
     padding-top: 2em;
