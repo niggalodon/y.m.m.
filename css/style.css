@@ -253,11 +253,11 @@ main {
 }
 
 .spread {
-  background: url("../media/hero1.webp") no-repeat center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887099/ymm/media/hero1.webp") no-repeat center scroll;
 }
 
 .spread2 {
-  background: url("../media/hero4.webp") no-repeat center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887096/ymm/media/hero4.webp") no-repeat center scroll;
 }
 
 .box1,
@@ -270,19 +270,19 @@ main {
 }
 
 .box1 {
-  background: url("../media/hero2.webp") no-repeat center center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887097/ymm/media/hero2.webp") no-repeat center center scroll;
 }
 
 .box2 {
-  background: url("../media/hero3.webp") no-repeat center center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887105/ymm/media/hero3.webp") no-repeat center center scroll;
 }
 
 .box3 {
-  background: url("../media/hero5.webp") no-repeat center center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887104/ymm/media/hero5.webp") no-repeat center center scroll;
 }
 
 .box4 {
-  background: url("../media/hero6.webp") no-repeat center center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887100/ymm/media/hero6.webp") no-repeat center center scroll;
 }
 
 .spread,
@@ -460,7 +460,7 @@ form button {
   width: 100%;
   height: 30vh;
   border-radius: 20px;
-  background: url(../media/gallery.webp) no-repeat center center scroll;
+  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887097/ymm/media/gallery.webp") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
