@@ -112,6 +112,31 @@
 }
 
 @media screen and (max-width: 450px) {
+  h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 21px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+
   .full-padding {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -147,6 +172,7 @@
 
     background: #F5F6F3;
     padding: 5px 10px;
+    border: 1px solid #D5AF34;
     border-radius: 20px;
 
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
@@ -155,7 +181,7 @@
   }
 
   .mobile-navbar ul {
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
   }
 
