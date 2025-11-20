@@ -81,6 +81,7 @@ button {
   font-weight: 600;
   color: #fff;
   background: #D9B391;
+  border: 1px solid #D9B391;
 }
 
 button:hover {
@@ -183,6 +184,7 @@ mobile-navigation ul li a {
   margin-top: 10px;
   z-index: 50;
   position: fixed;
+  font-weight: 600;
 
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -219,22 +221,6 @@ main {
   padding-top: 30px;
 }
 
-.white-to-grey {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 60%, rgba(218, 218, 221, 1) 100%);
-}
-
-.grey-to-white {
-  background: linear-gradient(180deg, rgba(218, 218, 221, 1) 60%, rgba(255, 255, 255, 1) 100%);
-}
-
-.white {
-  background: #fff;
-}
-
-.grey {
-  background: #F5F6F3;
-}
-
 .hero-spread {
   height: 55vh;
   display: flex;
@@ -243,78 +229,79 @@ main {
   align-items: center;
 }
 
-.spread,
-.spread2,
-.boxes {
-  width: 24%;
+.hero-images {
+  width: 49%;
   height: 100%;
-  border-radius: 20px;
 }
 
-.boxes {
+.landscape {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.spread {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887099/ymm/media/hero1.webp") no-repeat center scroll;
+.portrait {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.spread2 {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887096/ymm/media/hero4.webp") no-repeat center scroll;
-}
-
-.box1,
-.box2,
-.box3,
-.box4 {
+.hero-spread img {
   width: 100%;
-  height: 48%;
+  height: 100%;
   border-radius: 20px;
-}
-
-.box1 {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887097/ymm/media/hero2.webp") no-repeat center center scroll;
-}
-
-.box2 {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887105/ymm/media/hero3.webp") no-repeat center center scroll;
-}
-
-.box3 {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887104/ymm/media/hero5.webp") no-repeat center center scroll;
-}
-
-.box4 {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1750887100/ymm/media/hero6.webp") no-repeat center center scroll;
-}
-
-.spread,
-.spread2,
-.box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6 {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+  border: 1px solid #CA9C02;
+  border-radius: 20px;
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
-.spread img,
-.boxes img {
-  border-radius: 20px;
+.spread img {
+  object-fit: cover;
 }
 
-.about {}
+.box img {
+  object-fit: cover;
+}
+
+.landscape .spread {
+  width: 100%;
+  height: 48%;
+}
+
+.landscape .boxes {
+  height: 48%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.landscape .boxes .box {
+  width: 48%;
+  height: 100%;
+}
+
+.portrait .spread {
+  width: 48%;
+  height: 100%;
+}
+
+.portrait .boxes {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portrait .boxes .box {
+  width: 100%;
+  height: 48%;
+}
 
 .content-area {
   display: flex;
@@ -437,10 +424,6 @@ form button {
   width: 100%;
 }
 
-.branding {
-  background: rgba(218, 218, 221, 1);
-}
-
 .footer-area {
   display: flex;
   flex-direction: column;
@@ -517,7 +500,8 @@ form button {
 
 .gallery-image {
   border-radius: 20px;
-  height: 40vh;
+  height: 55vh;
+  object-fit: cover;
 
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
@@ -553,6 +537,7 @@ form button {
   align-items: center;
   justify-content: center;
   color: #fff !important;
+  z-index: 5;
 }
 
 .gallery-image-text {
