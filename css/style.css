@@ -310,6 +310,13 @@ main {
   align-items: center;
 }
 
+.kit-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-area {
   width: 47%;
 }

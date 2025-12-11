@@ -33,10 +33,6 @@
     width: 94%;
   }
 
-  .spread2 {
-    display: none;
-  }
-
   .spread,
   .boxes {
     width: 32%;
@@ -85,9 +81,12 @@
 
 @media screen and (max-width: 700px) {
 
-  .spread,
-  .spread2 {
+  .hero-images.portrait {
     display: none;
+  }
+
+  .hero-images {
+    width: 100%;
   }
 
   .boxes {
