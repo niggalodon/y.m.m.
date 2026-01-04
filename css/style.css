@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
+  background: #F5F6F3;
 }
 
 body {
@@ -190,7 +191,7 @@ mobile-navigation ul li a {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 
-  background: #F5F6F3;
+  background: #FFF;
   padding: 5px 10px;
   border: 1px solid #D5AF34;
   border-radius: 20px;
