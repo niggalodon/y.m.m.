@@ -638,3 +638,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.full-padding {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}

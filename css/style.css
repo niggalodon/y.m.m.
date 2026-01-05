@@ -60,9 +60,17 @@ h1 span,
 h2 span,
 h6 span,
 h3.fancy,
-h4.fancy {
+h4.fancy,
+.title-banner h1 {
   font-weight: 900;
   font-family: "breathing_personal_use_onlyRg", sans-serif ;
+}
+
+h1 span,
+h2 span,
+h6 span,
+h3.fancy,
+h4.fancy {
   color: #CB9B02;
 }
 
@@ -116,11 +124,11 @@ button:hover {
 }
 
 .top-padding {
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 .bottom-padding {
-  padding-bottom: 2em;
+  padding-bottom: 5em;
 }
 
 .no-bottom-padding {
@@ -234,7 +242,7 @@ mobile-navigation ul li a {
 }
 
 main {
-  padding-top: 30px;
+  padding-top: 3em;
 }
 
 .hero-spread {
@@ -478,6 +486,8 @@ form button {
   -o-background-size: cover;
   background-size: cover;
 
+  border: 1px solid #D5AF34;
+
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
@@ -500,7 +510,7 @@ form button {
 .banner-text {
   z-index: 30;
   padding: 2em 2em;
-  width: 80%;
+  width: 60%;
   border-radius: 20px;
   margin-top: -5em;
   background: #fff;
