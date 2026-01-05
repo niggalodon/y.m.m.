@@ -57,11 +57,26 @@ span {
 }
 
 h1 span,
-h2 span {
+h2 span,
+h6 span,
+h3.fancy,
+h4.fancy {
   font-weight: 900;
   font-family: "breathing_personal_use_onlyRg", sans-serif ;
   color: #CB9B02;
 }
+
+h4.fancy a {
+  color: #CB9B02;
+}
+
+h4.fancy a:hover {
+  color: #595A5A;
+}
+
+h6 span.fancy {
+  font-size: 21px;
+} 
 
 a {
   text-decoration: none;
@@ -183,7 +198,7 @@ mobile-navigation ul li a {
   height: 60px;
   width: 380px;
   margin-top: 10px;
-  z-index: 50;
+  z-index: 9999;
   position: fixed;
   font-weight: 600;
 
