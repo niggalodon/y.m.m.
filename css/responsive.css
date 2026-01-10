@@ -44,6 +44,12 @@
     flex-direction: column;
   }
 
+  .values .content-area,
+  .mission .content-area,
+  .founder .content-area {
+    flex-direction: column-reverse;
+  }
+
   .cta h6 {
     display: none;
   }
@@ -80,7 +86,6 @@
 }
 
 @media screen and (max-width: 700px) {
-
   .hero-images.portrait {
     display: none;
   }
@@ -102,39 +107,58 @@
   .banner-text {
     margin-top: -3em;
   }
+
+  .hero-events .hero-spread {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-events .kit-area {
+    margin-top: 2em;
+  }
+
+  .domi .hero-spread {
+    margin-top: 35em;
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 599px) {
   .gallery-image {
     height: 70vh;
   }
+
+  .domi .hero-spread {
+    margin-top: 30em;
+  }
 }
 
 @media screen and (max-width: 450px) {
   h1 {
-  font-size: 35px;
-}
+    font-size: 35px;
+  }
 
-h2 {
-  font-size: 30px;
-}
+  h2 {
+    font-size: 30px;
+  }
 
-h3 {
-  font-size: 27px;
-}
+  h3 {
+    font-size: 27px;
+  }
 
-h4 {
-  font-size: 24px;
-}
+  h4 {
+    font-size: 24px;
+  }
 
-h5 {
-  font-size: 21px;
-}
+  h5 {
+    font-size: 21px;
+  }
 
-h6 {
-  font-size: 18px;
-}
-
+  h6 {
+    font-size: 18px;
+  }
 
   .full-padding {
     padding-top: 1.3em;
@@ -207,5 +231,9 @@ h6 {
 
   .banner-text {
     margin-top: -2em;
+  }
+
+  .domi .hero-spread {
+    margin-top: 20em;
   }
 }
