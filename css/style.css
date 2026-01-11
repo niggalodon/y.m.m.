@@ -169,7 +169,7 @@ mobile-navigation {
   height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  z-index: 49;
+  z-index: 9999;
   background: rgba(245, 246, 243, .85);
 }
 

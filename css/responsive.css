@@ -186,7 +186,7 @@
     height: 60px;
     width: 200px;
     margin-top: 10px;
-    z-index: 50;
+    z-index: 9999;
     position: fixed;
 
     left: 50%;
